@@ -1,0 +1,42 @@
+CHECK OUT
+
+desgin and implement a  console based checkout system for a retail store uing oop principles.This ass is inteneded to evaluate your understanding of oop concepts such as encapsulation, class desgin, responsibilities, and interaction btw object as well as your ability to write unit test.
+
+Fxn req
+
+[1] Allow customers to enter products dynamically
+-- Each product must hava a name and price 
+-- D sys shld continue accepting produts until d customer indicates tey finished 
+
+[2] models the sysy using oop
+-- desgin appropiate classes (e.g product,cart, checkout,invoice,payment,e.t.c)
+-- Use proper encapsulationand claer responsibilites for each class
+-- avoid procedural or monolithic designs
+
+[3] calculate total and vat
+-- compute the subtotal of all items
+-- apply vat at a rate of 7.5%
+-- calculate the find total coost (subtotal+VAT)
+
+[4] Generate an itemized invoice 
+-- Display all enterd produts with their prices 
+-- Show subtotal, VAT amount, and total cost.
+--  present this invoice before requesting payment 
+
+[5] Process Payment 
+-- prompt the customers to enter a payment amount 
+-- validate input: must be numeric, must be graeter than or eaqul to the total cost
+-- continue prompting until a valid input is eneterd 
+
+[6] Show VAT amount
+[7] Show total cost 
+     Show payemnt amount 
+          show balance(change due)
+
+
+
+TEST
+
+correct vat calculation, accuarate total cost consumption, proper handling of invalid input, correct balance, busness logic 
+
+do a main  

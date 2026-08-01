@@ -1,0 +1,37 @@
+1. ProjectName -> EmployeeName
+ 
+2. PROJECT_STAFF(ProjectName, EmployeeName)
+
+   MEETING_LOG(foreign key = ProjectName, Date)
+
+3. The design in Part B is a significant improvement over the original table because it addresses redundancy and anomalies.
+
+RLCQ
+1. ProjectID -> EmployeeName
+ ProjectID -> EmployeeSalary
+ (ProjectID, EmployeeName) -> EmployeeSalary
+ EmployeeName -> EmployeeSalary
+
+2. ProjectID
+
+3. EmployeeName,EmployeeSalary
+
+4. 1NF
+
+5. Update,Delete,Insert
+
+6. ProjectID -> EmployeeName
+   ProjectID -> EmployeeSalary
+  (ProjectID, EmployeeName) -> EmployeeSalary
+
+7. EmployeeName -> EmployeeSalary
+
+8. (ProjectID, EmployeeName) -> EmployeeSalary
+
+9. No
+
+10. Yes
+
+11. 
+
+

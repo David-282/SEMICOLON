@@ -1,0 +1,10 @@
+STAFF_MEETING (EmployeeName, ProjectName, Date)
+
+ProjectName -> EmployeeName, Date
+
+STUDENT (StudentNumber, StudentName, Dorm, RoomType, DormCosst,
+Club, ClubCost, Sibling, Nickname)
+
+DormCost -> RoomType, Dorm
+ClubCost -> Club
+Nickname -> StudentNumber, StudentName

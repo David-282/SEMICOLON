@@ -1,0 +1,20 @@
+
+nav ul{
+    background-color: grey;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: right;
+}
+
+/*nav ul li{*/
+/*    list-style: none;*/
+/*    gap: 3rem;*/
+
+/*}*/
+
+.aboutpage{
+    background-color: lightgray;
+    font-size: large;
+    font-family: SansSerif;
+}
